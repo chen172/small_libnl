@@ -3,4 +3,5 @@
 
 
 TO DO:
-分析netlink.h
+1.从Linux kernel下完整的fork下netlink.h
+2.分析netlink.h
