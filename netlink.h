@@ -23,6 +23,7 @@
 #define NETLINK_IP6_FW		13
 #define NETLINK_DNRTMSG		14	/* DECnet routing messages */
 #define NETLINK_KOBJECT_UEVENT	15	/* Kernel messages to userspace */
+//通过这个协议和wifi网卡通信，和nl80211通信，和wifi管理路径的帧通信
 #define NETLINK_GENERIC		16
 /* leave room for NETLINK_DM (DM Events) */
 #define NETLINK_SCSITRANSPORT	18	/* SCSI Transports */
