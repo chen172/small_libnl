@@ -4,4 +4,6 @@
 
 TO DO:
 1.从Linux kernel下完整的fork下netlink.h
-2.根据libnl的文档和源码分析generic netlink协议。
+2.根据ctrl.c的分析，要构造头部和payload。
+3.根据genl.c和msg.c分析Generic netlink头部的构造。
+4.根据attr.c分析消息payload属性的构造。
