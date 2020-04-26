@@ -6,5 +6,5 @@
 
 TO DO:
 1.从Linux kernel下完整的fork下netlink.h
-2.分析iw.c中的__handle_cmd函数来了解iw的行为。
+2.根据iw.c的源码构造一个简单的iw程序。
 
