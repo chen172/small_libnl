@@ -6,5 +6,4 @@
 
 TO DO:
 1.从Linux kernel下完整的fork下netlink.h
-2.根据iw.c的源码构造一个简单的iw程序。
-
+2.解决simple_iw的bug，主要问题是命令的构建。
