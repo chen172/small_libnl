@@ -6,4 +6,5 @@
 
 TO DO:
 1.从Linux kernel下完整的fork下netlink.h
-2.解决simple_iw的bug，主要问题是命令的构建。
+2.继续完善命令的构建。
+3.正确的解析接收到的消息。
