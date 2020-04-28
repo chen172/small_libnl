@@ -1,5 +1,5 @@
 Goal:
-learning how to programming with libnl
+hack libnl
 
 File decrption:
 simple_iw: the simple version of linux command iw
@@ -11,8 +11,4 @@ libnl.h: self implementation of libnl
 
 
 To do:
-1.fix bug。
-
-2.add command。
-
-3.完善对phy命令的回调函数的注释。
+1.implement recvmsgs
