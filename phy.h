@@ -568,7 +568,6 @@ static int print_phy_handler(struct nl_msg *msg, void *arg)
 		printf("Wiphy %s\n", nla_get_string(tb_msg[NL80211_ATTR_WIPHY_NAME]));
 
 	/* needed for split dump */
-	#if 1
 	if (tb_msg[NL80211_ATTR_WIPHY_BANDS]) {
 		nla_for_each_nested(nl_band, tb_msg[NL80211_ATTR_WIPHY_BANDS], rem_band) {
 			if (last_band != nl_band->nla_type) {
@@ -666,6 +665,5 @@ next:
 			}
 		}
 	}
-	#endif
 	return 0;
 }
